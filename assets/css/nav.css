@@ -32,8 +32,14 @@ body {
   list-style-type: none;
   text-align: center;
 }
+/* Stuff that dosen't belong in this css file  */
 .current {
   background-color: #c2eeee;
   border-radius: 5px;
   padding: 0.5rem 1rem;
+}
+footer {
+  display: block;
+  border: double black;
+  text-align: center;
 }
