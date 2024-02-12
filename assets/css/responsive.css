@@ -1,12 +1,13 @@
+* {
+  overflow-x: hidden;
+}
+
 @media (max-width: 768px) {
   .main-nav {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 15px;
-  }
-}
-@media (max-width: 768px) {
-  .nav {
+    align-items: center;
+    justify-content: center;
     margin: 15px;
   }
 }

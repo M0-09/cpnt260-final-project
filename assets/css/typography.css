@@ -3,6 +3,7 @@
   font-weight: 600;
   color: #333;
   margin-right: auto;
+  overflow: hidden;
 }
 .main-nav {
   font-size: 1.25rem;
