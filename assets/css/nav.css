@@ -43,4 +43,48 @@ footer {
   display: block;
   border: double black;
   text-align: center;
+  margin-bottom: 20px;
+}
+.footer-nav {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  text-align: center;
+}
+.foot-nav {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-nav .foot-nav {
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav .foot-nav li {
+  margin-bottom: 1rem;
+}
+
+.footer-nav .foot-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+.footer-nav .foot-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.footer {
+  background-color: #f5f5f5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
 }

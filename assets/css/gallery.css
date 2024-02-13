@@ -5,7 +5,7 @@ section {
 }
 
 .responsive {
-  flex: 1 24%; /* 24% to leave some spacing */
+  flex: 1 25%;
   margin: 20px;
   box-sizing: border-box;
 }
