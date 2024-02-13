@@ -10,4 +10,7 @@
     justify-content: center;
     margin: 15px;
   }
+  .main-nav a {
+    font-size: 15px;
+  }
 }
