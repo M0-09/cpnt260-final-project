@@ -11,7 +11,15 @@
   </head>
   <body>
     <nav class="nav">
-      <h1 class="logo"><a href="index.html">Site-Title</a></h1>
+      <h1 class="logo">
+        <a href="index.html"
+          ><img
+            src="assets/img/logo.svg"
+            alt="WEBDEV Solutions Logo"
+            class="logo-img"
+          />WEBDEV Solutions</a
+        >
+      </h1>
 
       <ul class="main-nav">
         <li><a href="index.html">Home</a></li>
@@ -23,6 +31,47 @@
     </nav>
     <main>
       <header></header>
+      <form
+        id="fs-frm"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/{form_id}"
+        method="post"
+      >
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Full Name</label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="First and Last"
+            required=""
+          />
+          <label for="email-address">Email Address</label>
+          <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="xyz@abc.com"
+            required=""
+          />
+          <label for="message">Message/Inquiry</label>
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Write your query here and submit!"
+            required=""
+          ></textarea>
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
     </main>
     <footer class="footer">
       <nav class="footer-nav">

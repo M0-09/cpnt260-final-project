@@ -88,3 +88,8 @@ footer {
   width: 100%;
   color: black;
 }
+.logo-img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}

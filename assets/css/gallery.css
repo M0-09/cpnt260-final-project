@@ -1,4 +1,4 @@
-section {
+.sec {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -30,10 +30,24 @@ img {
   padding: 10px;
   box-sizing: border-box;
 }
+.hero-sec {
+  background-image: linear-gradient(
+      0.25turn,
+      rgba(255, 255, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url(../img/sky.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+
+  margin: 1.5rem;
+}
 
 @media (max-width: 768px) {
   .responsive {
-    flex: 1 100%; /* 100% width on mobile */
+    flex: 1 100%;
   }
 }
 .responsive:hover {

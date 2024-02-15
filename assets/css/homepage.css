@@ -1,4 +1,53 @@
 section {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  line-height: 1.5;
+}
+.hero {
+  background-image: linear-gradient(
+      0.25turn,
+      rgba(255, 255, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url(../img/sky.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 80vh;
+
+  margin: 1.5rem;
+}
+h2,
+h3 {
+  max-width: 60ch;
+  text-align: justify;
+
+  padding: 10px;
+}
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15rem;
+}
+
+.button {
+  background-color: #5ecabe;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.5;
+  padding: 15px 32px;
+
+  margin-inline: 8rem;
+}
+
+.button:hover {
+  background-color: #04aa6d;
+  color: white;
+  opacity: 0.9;
 }

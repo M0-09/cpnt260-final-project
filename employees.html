@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Crew</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logo.svg" />
+    <link rel="stylesheet" href="assets/css/homepage.css" />
     <link rel="stylesheet" href="assets/css/nav.css" />
     <link rel="stylesheet" href="assets/css/typography.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -12,7 +13,15 @@
   </head>
   <body>
     <nav class="nav">
-      <h1 class="logo"><a href="index.html">Site-Title</a></h1>
+      <h1 class="logo">
+        <a href="index.html"
+          ><img
+            src="assets/img/logo.svg"
+            alt="WEBDEV Solutions Logo"
+            class="logo-img"
+          />WEBDEV Solutions</a
+        >
+      </h1>
 
       <ul class="main-nav">
         <li><a href="index.html">Home</a></li>
@@ -21,23 +30,43 @@
       </ul>
     </nav>
     <main>
-      <header></header>
-      <section>
-        <div class="responsive">
-          <div class="gallery">
-            <a target="" href="assets/img/emp1.avif">
-              <img src="assets/img/emp1.avif" alt="Employee-1" action="none" />
-            </a>
-            <div class="desc">Add a description of the image here</div>
+      <header>
+        <div class="hero-sec">
+          <h2 class="h2">
+            Empowering Tomorrow, Today: Unleashing Innovation with Cutting-Edge
+            Tech Solutions
+          </h2>
+          <h3 class="h3">
+            Transforming Tomorrow: WEBDEV Solutions! Where Innovation Meets
+            Excellence.
+          </h3>
+          <div class="card">
+            <a class="button" font-size="1.45rem" href="#sec">Get Acquainted</a>
+            <a class="button" href="contact.html">Contact Us</a>
           </div>
         </div>
-
+      </header>
+      <section class="sec" id="sec">
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="assets/img/emp2.avif">
               <img src="assets/img/emp2.avif" alt="Employee-2" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Sarah Johnson</b>, <em>Cheif Technology Officer.</em>
+              <br />Visionary leader driving technological innovation.
+            </div>
+          </div>
+        </div>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="" href="assets/img/emp1.avif">
+              <img src="assets/img/emp1.avif" alt="Employee-1" action="none" />
+            </a>
+            <div class="desc">
+              <b>Alex Rodriguez</b>, <em>Lead Software Engineer.</em>
+              <br />Coding maestro pushing boundaries in software development.
+            </div>
           </div>
         </div>
 
@@ -46,7 +75,10 @@
             <a target="_blank" href="assets/img/emp3.avif">
               <img src="assets/img/emp3.avif" alt="Employee-3" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Ryan Patel</b>, <em>Cyber Security Specialist.</em>
+              <br />Guardian of digital assets, expert in cybersecurity.
+            </div>
           </div>
         </div>
 
@@ -55,7 +87,10 @@
             <a target="_blank" href="assets/img/emp4.avif">
               <img src="assets/img/emp4.avif" alt="Employee-4" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Luke Gallows</b>, <em>Data Scientist.</em> <br />Analytical
+              mind uncovering valuable data insights.
+            </div>
           </div>
         </div>
 
@@ -64,7 +99,10 @@
             <a target="_blank" href="assets/img/emp5.avif">
               <img src="assets/img/emp5.avif" alt="Employee-5" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Mia Williams</b>, <em>UX/UI Designer.</em> <br />Design
+              virtuoso creating seamless user experience
+            </div>
           </div>
         </div>
 
@@ -73,7 +111,10 @@
             <a target="_blank" href="assets/img/emp6.avif">
               <img src="assets/img/emp6.avif" alt="Employee-6" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Emily Chen</b>, <em>Customer Support .</em> <br />Friendly face
+              providing top-notch client assistance.
+            </div>
           </div>
         </div>
 
@@ -82,7 +123,10 @@
             <a target="_blank" href="assets/img/emp7.avif">
               <img src="assets/img/emp7.avif" alt="Employee-7" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Emma Baker</b>, <em>Marketing and Communications Manager</em>
+              <br />Brand voice creating impactful narratives and content.
+            </div>
           </div>
         </div>
 
@@ -91,7 +135,10 @@
             <a target="_blank" href="assets/img/emp8.avif">
               <img src="assets/img/emp8.avif" alt="Employee-8" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Marcus Lee</b>, <em>Data Scientist</em> <br />Analytical mind
+              extracting valuable insights to drive informed decision-making.
+            </div>
           </div>
         </div>
 
@@ -100,7 +147,11 @@
             <a target="_blank" href="assets/img/emp9.avif">
               <img src="assets/img/emp9.avif" alt="Employee-9" />
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">
+              <b>Olivia Turner</b>, <em>Project Manager.</em>
+              <br />Organizational maestro ensuring projects are delivered on
+              time and with excellence.
+            </div>
           </div>
         </div>
       </section>
@@ -109,7 +160,7 @@
       <nav class="footer-nav">
         <ul class="foot-nav">
           <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="employees.html">Our Crew</a></li>
+          <li><a href="employees.html" class="current">Our Crew</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
