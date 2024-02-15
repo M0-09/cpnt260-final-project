@@ -10,7 +10,7 @@
 4. Contact Form => https://formspree.io/library/simple-contact-form/
 5. Overall code help where needed => w3schools and MDN
 
-# Three page elements that can be foud on the website :
+# Three page elements that can be found on the website :
 
 1. Contact Form (Under the image gallery)
 2. Hero Section and CTA with css (background image + gradient-found on the home-page and the our-crew page)
