@@ -26,7 +26,7 @@
       <ul class="main-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="employees.html" class="current">Our Crew</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Review.html">Review</a></li>
       </ul>
     </nav>
     <main>
@@ -42,7 +42,7 @@
           </h3>
           <div class="card">
             <a class="button" font-size="1.45rem" href="#sec">Get Acquainted</a>
-            <a class="button" href="contact.html">Contact Us</a>
+            <a class="button" href="#fs-frm">Contact Us</a>
           </div>
         </div>
       </header>
@@ -155,13 +155,54 @@
           </div>
         </div>
       </section>
+      <form
+        id="fs-frm"
+        name="simple-Review-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/{form_id}"
+        method="post"
+      >
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Full Name</label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="First and Last"
+            required=""
+          />
+          <label for="email-address">Email Address</label>
+          <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="xyz@abc.com"
+            required=""
+          />
+          <label for="message">Message/Inquiry</label>
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Write your query here and submit!"
+            required=""
+          ></textarea>
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Review Form Submission"
+          />
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
     </main>
     <footer>
       <nav class="footer-nav">
         <ul class="foot-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="employees.html" class="current">Our Crew</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Review.html">Review</a></li>
         </ul>
       </nav>
       <hr />
