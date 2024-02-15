@@ -1,3 +1,11 @@
+/* google fonts */
+h1,
+h2,
+h3,
+a {
+  font-family: "Alegreya Sans SC", Arial, sans-serif;
+}
+
 .logo {
   font-size: 2rem;
   font-weight: 600;
@@ -14,27 +22,4 @@ h2 {
 }
 h3 {
   font-size: 1.35rem;
-}
-/* form styles */
-
-label {
-  margin-bottom: 5px;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 5px;
-  box-sizing: border-box;
-}
-
-input[type="submit"] {
-  width: auto;
-  cursor: pointer;
-}
-
-#fs-frm {
-  max-width: 400px;
-  margin: auto;
 }
