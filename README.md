@@ -2,6 +2,10 @@
 
 # Mo Sharma
 
+# GH repo: https://github.com/M0-09/cpnt260-final-project
+
+# GH Pages : https://m0-09.github.io/cpnt260-final-project/
+
 # Attributions:
 
 1. All images (but the logo) from => Unsplash
